@@ -1,0 +1,12 @@
+English = int(input("Enter the marks for english: "))
+Math = int(input("Enter the marks for math: "))
+Science = int(input("Enter the marks for science: "))
+Hindi = int(input("Enter the marks for Hindi: "))
+
+Sum = English+Math+Science+Hindi
+print("Total marks = ",Sum)
+
+perc = (Sum/400)*100
+
+print(end="Percentage mark = ")
+print(perc)

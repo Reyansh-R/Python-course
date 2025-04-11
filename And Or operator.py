@@ -19,4 +19,9 @@ if b > 0 or c > 0:
     print("Either of the number is greater than 0")
 else:
     print("No number is greater than 0")
-    
+
+a = 10
+b = 12
+c = 12
+print(a!=b)
+print(b!=c)
